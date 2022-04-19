@@ -1,0 +1,117 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.Conteudo{background-color: #07111A;}
+.Header{background-color:#FF6961 !important; }
+
+.Menu{background-color: #FF6961;}
+.Logo{width:  95px; padding-right: 25px;}
+
+.Dest{padding-bottom: 20px;}
+
+h2#avaliacoes {padding-top: 20px; padding-bottom: 20px;}
+
+h2#entrevistas{padding-top: 20px; padding-bottom: 20px;}
+
+#Entre{padding-top: 10px;}
+
+.Makinof{padding-bottom: 20px;}
+
+.Banner{background-color:#081622}
+.avaliUser{background-color:#081622; padding-bottom: 20px;}
+.lancamentos{padding-top: 20px; padding-bottom: 20px;}
+
+.Banner-Texto{color: white; padding-bottom: 10px;padding-right: 50px; padding-left: 25px;}
+.Banner-Texto p1{text-align: justify;}
+.Banner-video{padding-bottom: 10px;padding-left: 80px; padding-right: 25px;}
+
+.container {
+    text-align: justify;
+}
+
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+h6 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+a {
+    font-size: large;
+    margin-block: -5px;
+}
+
+p {
+    color: white;
+}
+
+#Text_Noticia{color: rgb(124, 124, 236) !important;}
+
+p.card-text {
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+hr{color:white;}
+
+#Avalicao{display: flex;}
+.estrelas input[type=radio] {
+    display: none;
+  }
+  .estrelas label i.fa{
+    font-size: 1em
+  }
+  .estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+  }
+  .estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+  }
+
+  .Conteudo{padding-top: 40px;}
+
+  .des2{padding-bottom: 7px;}
+
+  .img-circle {
+    border-radius: 50%;
+    filter: invert(100%);
+    width: 60%;
+    height: 60%;
+    align-items: center;
+  }
+
+  .img-circle2 {
+    border-radius: 50%;
+    filter: invert(100%);
+    width: 80%;
+    height: 90%;
+    align-items: center;
+  }
+
+  .img-circle3 {
+    border-radius: 50%;
+    filter: invert(100%);
+    align-items: center;
+  }
+
+  .Equipe{display: flex; margin-top: 10px;}
+
+  #RedeSociais{padding-top: 10px;}
+
+  .footertext{background-color: #FF6961;}
+
+
