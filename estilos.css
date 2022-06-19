@@ -1,7 +1,9 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
-.Conteudo{background-color: #07111A;}
+.Conteudo{
+  background-color: #07111A;
+}
 .Header{background-color:#FF6961 !important; }
 
 .Menu{background-color: #FF6961;}
@@ -64,6 +66,7 @@ p.card-text {
     align-items: center;
     text-align: center;
 }
+#imag_carro{max-width: 200px;}
 
 hr{color:white;}
 
@@ -114,4 +117,95 @@ hr{color:white;}
 
   .footertext{background-color: #FF6961;}
 
+  .descricao {
+    line-height: 24px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  p.descricao > span {
+    background: #383838;
+    border-radius: 20px;
+    padding: 2px 16px;
+    white-space: nowrap;
+  }
 
+  .pesquisar {
+    height: 40px;
+    width: 240px;
+    margin-left: 20px;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+   
+    display: flex;
+    align-items: center;
+  }
+  a.pesquisar {
+    background: #ec615a;
+    border: 0;
+    text-decoration: none;
+    justify-content: center;
+  
+    transition: background-color 0.2s;
+  }
+  
+  a.pesquisar:hover {
+    background: #810000;
+    color: #fff !important;
+  }
+  .pesquisar > input {
+    background: transparent;
+    border: none;
+  }
+   
+  .pesquisar {
+    margin: 10px 0;
+    color: white;
+  }
+.Pesquisa_Movies{
+  margin-bottom: 20px;
+}
+
+.pesquisar-filme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.pesquisar-filme > button {
+  height: 40px;
+  width: 240px;
+  background: #ec615a;
+  margin-left: 20px;
+  border: 0;
+  border-radius: 5px;
+
+  transition: background-color 0.2s;
+}
+
+.pesquisar-filme > button:hover {
+  background: #810000;
+  
+}
+.titulo{
+  color: rgb(233, 116, 116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.titulo1{
+  color: rgb(233, 116, 116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo2{
+  color: rgb(180, 75, 75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
