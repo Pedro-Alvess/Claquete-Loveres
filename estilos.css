@@ -3,8 +3,10 @@
 }
 .Conteudo{
   background-color: #07111A;
+  min-height: calc(100vh - 160px);
 }
-.Header{background-color:#FF6961 !important; }
+.Header{background-color:#FF6961 !important; min-height: 80px;}
+.footertext{background-color: #FF6961; min-height: 80px;}
 
 .Menu{background-color: #FF6961;}
 .Logo{width:  95px; padding-right: 25px;}
@@ -115,7 +117,7 @@ hr{color:white;}
 
   #RedeSociais{padding-top: 10px;}
 
-  .footertext{background-color: #FF6961;}
+
 
   .descricao {
     line-height: 24px;
